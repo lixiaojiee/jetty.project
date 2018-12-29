@@ -42,6 +42,10 @@ public class ALPNClientConnection extends NegotiatingClientConnection
         this.protocols = protocols;
     }
 
+    /**
+     *
+     * @return
+     */
     public List<String> getProtocols()
     {
         return protocols;
